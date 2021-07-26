@@ -1,4 +1,4 @@
-Git, GitHub and Gitflow Commands
+# Git, GitHub and Gitflow Commands
 
 
 
@@ -6,7 +6,7 @@ Git, GitHub and Gitflow Commands
 
 ## *Git:*
 
-#### 
+
 
 - ### config
 
@@ -18,19 +18,21 @@ Git, GitHub and Gitflow Commands
 
 
 
+
 ------
 
 
 
 - ### log and status
 
-  log with first 7 digits of commits hash
+    log with first 7 digits of commits hash
 
-  `git log --oneline`
+    `git log --oneline`
 
-  status of repository
+    status of repository
 
-  `git status`
+    `git status`
+
 
 
 
@@ -40,7 +42,8 @@ Git, GitHub and Gitflow Commands
 
 - ### initialize of repo
 
-  `git init`
+    `git init`
+
 
 
 
@@ -50,16 +53,58 @@ Git, GitHub and Gitflow Commands
 
 - ### adding and commiting
 
-  adding changes from working directory to staging state
+    adding changes from working directory to staging state
 
-  `git add namefile.txt`
+    `git add namefile.txt`
 
-  commit of staging state to local repo
+    commit of staging state to local repo
 
-  ***atomic commit: each commit is should be about just one topic***
+    ***atomic commit: each commit is should be about just one topic***
 
-  `git commit -m "message of commit"`
+    `git commit -m "message of commit"`
 
+
+=======
+
+
+
+- ### amending
+
+  if we commiting some files and after that we notice that we want add some other files or same files with some edit after commit to that commit (amending commit): first add files to staging area and after that
+
+  `git commit --amend`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> origin/git
 
 
 ------
